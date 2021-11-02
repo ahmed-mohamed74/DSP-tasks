@@ -8,7 +8,7 @@ d = [6 3 2 ; 2 12 -7 ; -1 6 2 ; -5 15 11];
 
 %% QUE.1:
 3*a - 5*c
-% 7*a + 2*b => error;
+% 7*a + 2*b => error , bec. dimentions of a not equal dimentions of b;
 c*a 
 c*d'
 
@@ -25,8 +25,8 @@ eye(3)
 
 %% QUE.3:
 clc
-% [a,b] => error ,matrix of a not equal matrix of in number of rows
-% [a;b] => error ,matrix of a not equal matrix of in number of columns
+% [a,b] => error ,matrix of a not equal matrix of (b) in number of rows
+% [a;b] => error ,matrix of a not equal matrix of (b) in number of columns
 
 %% QUE.4:
 clc
